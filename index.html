@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pra Você ✨</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <style>
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(6px);
+        }
+      }
+    </style>
+  </head>
+  <body class="min-h-screen overflow-x-hidden bg-[#020617] text-white">
+    <div id="site-background" class="fixed inset-0 z-0 pointer-events-none">
+      <div id="particles-js" class="absolute inset-0"></div>
+
+      <div
+        class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(37,99,235,0.10),transparent_35%),radial-gradient(circle_at_bottom,_rgba(255,255,255,0.04),transparent_25%)]"
+      ></div>
+    </div>
+
+    <main class="relative z-10">
+      <section
+        id="hero-section"
+        class="relative min-h-[100svh] overflow-hidden transition-opacity duration-[1200ms] ease-out"
+      >
+        <div
+          class="flex min-h-[100svh] items-center justify-center px-4 sm:px-6 md:px-8 -translate-y-4 sm:-translate-y-6 md:-translate-y-8"
+        >
+          <header
+            id="hero-card"
+            class="w-full max-w-4xl rounded-[1.75rem] border border-white/10 bg-white/5 px-5 py-10 text-center shadow-[0_0_80px_rgba(255,255,255,0.05)] backdrop-blur-xl sm:rounded-[2rem] sm:px-8 sm:py-14 md:px-16 md:py-20"
+          >
+            <p
+              class="mb-4 text-xs uppercase tracking-[0.3em] text-white/60 sm:text-sm md:text-base"
+            >
+              um cantinho nosso
+            </p>
+
+            <h1
+              class="mx-auto max-w-3xl text-3xl font-semibold leading-[1.15] sm:text-4xl md:text-5xl lg:text-6xl"
+            >
+              Pronta para entrar nessa viagem comigo?
+            </h1>
+
+            <p
+              class="mx-auto mt-5 max-w-2xl text-sm leading-7 text-white/75 sm:mt-6 sm:text-base md:text-lg"
+            >
+              Eu quis transformar em um lugar tudo aquilo que faz você ser tão especial pra mim.
+            </p>
+          </header>
+        </div>
+
+        <div class="absolute bottom-6 left-1/2 z-20 -translate-x-1/2 sm:bottom-8 md:bottom-10">
+          <button
+            id="hero-scroll-button"
+            type="button"
+            aria-label="Ir para a próxima seção"
+            class="group flex h-11 w-11 items-center justify-center rounded-full bg-white shadow-[0_0_0px_rgba(255,255,255,0.2)] transition-all duration-300 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] active:scale-95 sm:h-12 sm:w-12"
+          >
+            <span class="text-lg text-black animate-[float_2.5s_ease-in-out_infinite]">↓</span>
+          </button>
+        </div>
+      </section>
+
+      <section id="music-section" class="relative px-4 py-20 sm:px-6 sm:py-24">
+        <div class="mx-auto max-w-5xl">
+          <header class="text-center">
+            <p class="text-xs uppercase tracking-[0.3em] text-white/50 sm:text-sm"></p>
+            <h2 class="mt-4 text-2xl font-semibold sm:text-3xl md:text-5xl">
+              A música que me lembra você
+            </h2>
+            <p class="mx-auto mt-4 max-w-2xl text-sm leading-7 text-white/70 sm:mt-5 sm:text-base">
+              Tem músicas que deixam de ser só música quando começam a carregar alguém dentro delas.
+            </p>
+          </header>
+
+          <div
+            id="featured-song-card"
+            class="mx-auto mt-12 flex max-w-4xl flex-col overflow-hidden rounded-[1.75rem] border border-white/10 bg-white/5 backdrop-blur-xl sm:mt-16 sm:rounded-[2rem] md:flex-row"
+          >
+            <div class="h-64 w-full sm:h-72 md:h-auto md:w-[320px]">
+              <img
+                id="featured-song-cover"
+                src=""
+                alt="Capa da música"
+                class="h-full w-full object-cover"
+              />
+            </div>
+
+            <div
+              class="flex flex-1 flex-col justify-between px-6 py-6 sm:px-8 sm:py-8 md:px-10 md:py-10"
+            >
+              <div>
+                <p class="text-xs uppercase tracking-[0.3em] text-white/50">música em destaque</p>
+
+                <h3
+                  id="featured-song-title"
+                  class="mt-4 text-2xl font-semibold text-white sm:text-3xl md:text-4xl"
+                ></h3>
+
+                <p id="featured-song-artist" class="mt-3 text-base text-white/65 sm:text-lg"></p>
+
+                <p
+                  id="featured-song-description"
+                  class="mt-6 max-w-2xl text-sm leading-7 text-white/75 sm:text-base"
+                ></p>
+              </div>
+
+              <div class="mt-10">
+                <button
+                  id="featured-song-button"
+                  type="button"
+                  class="flex w-full items-center justify-center gap-3 rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-white/90 active:scale-95 sm:w-auto"
+                >
+                  <span id="featured-song-button-icon">▶</span>
+                  <span id="featured-song-button-text">Tocar música</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="moments-section" class="relative px-4 py-20 sm:px-6 sm:py-24">
+        <div class="mx-auto max-w-5xl">
+          <header class="text-center">
+            <p class="text-sm uppercase tracking-[0.35em] text-white/50">nossas lembranças</p>
+            <h2 class="mt-4 text-3xl font-semibold sm:text-4xl md:text-5xl">Nossos momentos</h2>
+            <p class="mx-auto mt-5 max-w-2xl text-sm leading-7 text-white/70 sm:text-base">
+              Alguns dias, palavras e lembranças que ficaram marcados em mim.
+            </p>
+          </header>
+
+          <div id="moments-list" class="mt-16 grid gap-4 sm:gap-6 md:grid-cols-2"></div>
+        </div>
+      </section>
+
+      <section id="letter-section" class="relative px-4 py-20 sm:px-6 sm:py-24">
+        <div class="mx-auto max-w-5xl">
+          <header class="text-center">
+            <p class="text-xs uppercase tracking-[0.3em] text-white/50 sm:text-sm">minha carta</p>
+            <h2 class="mt-4 text-2xl font-semibold sm:text-3xl md:text-5xl">Uma carta para você</h2>
+            <p class="mx-auto mt-4 max-w-2xl text-sm leading-7 text-white/70 sm:mt-5 sm:text-base">
+              Algumas coisas eu quis guardar aqui, só para você abrir no seu tempo.
+            </p>
+          </header>
+
+          <div class="mt-12 flex justify-center sm:mt-16">
+            <button
+              id="open-letter-button"
+              type="button"
+              class="group flex w-full max-w-md flex-col items-center rounded-[1.75rem] border border-white/10 bg-white/5 px-6 py-10 text-center backdrop-blur-xl transition-all duration-300 hover:bg-white/[0.07] active:scale-[0.98] sm:px-8 sm:py-12"
+            >
+              <div
+                class="flex h-24 w-24 items-center justify-center rounded-full bg-white/10 text-4xl transition-transform duration-300 group-hover:scale-105"
+              >
+                💌
+              </div>
+
+              <h3 class="mt-6 text-xl font-semibold text-white sm:text-2xl">Abrir carta</h3>
+
+              <p class="mt-3 text-sm leading-7 text-white/70 sm:text-base">
+                Tem palavras aqui que eu queria te deixar de um jeito especial.
+              </p>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
+    <div
+      id="letter-modal"
+      class="pointer-events-none fixed inset-0 z-[60] flex items-center justify-center bg-black/60 px-4 opacity-0 backdrop-blur-sm transition-all duration-300"
+    >
+      <div
+        id="letter-modal-content"
+        class="max-h-[85vh] w-full max-w-2xl overflow-y-auto rounded-[1.75rem] border border-white/10 bg-[#0f172a]/95 p-6 shadow-[0_10px_50px_rgba(0,0,0,0.45)] sm:p-8"
+      >
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <p class="text-xs uppercase tracking-[0.3em] text-white/45">para você</p>
+            <h3 class="mt-3 text-2xl font-semibold text-white sm:text-3xl">Minha carta</h3>
+          </div>
+
+          <button
+            id="close-letter-button"
+            type="button"
+            aria-label="Fechar carta"
+            class="flex h-10 w-10 items-center justify-center rounded-full bg-white text-black transition hover:bg-white/90 active:scale-95"
+          >
+            ✕
+          </button>
+        </div>
+
+        <div
+          id="letter-text"
+          class="mt-8 space-y-5 text-sm leading-8 text-white/80 sm:text-base"
+        ></div>
+
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-end">
+          <button
+            id="capture-letter-button"
+            type="button"
+            class="flex items-center justify-center rounded-full bg-white px-5 py-3 text-sm font-medium text-black transition hover:bg-white/90 active:scale-95"
+          >
+            Salvar
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      id="floating-player"
+      class="pointer-events-none fixed bottom-4 left-1/2 z-50 w-[calc(100%-1rem)] max-w-md -translate-x-1/2 opacity-0 transition-[opacity,transform] duration-500 sm:bottom-6 sm:left-auto sm:right-6 sm:w-full sm:max-w-sm sm:translate-x-0"
+    >
+      <div
+        class="flex items-center gap-3 rounded-2xl border border-white/10 bg-[#0f172a]/85 p-3 shadow-[0_10px_40px_rgba(0,0,0,0.35)] backdrop-blur-xl sm:gap-4"
+      >
+        <img
+          id="floating-player-cover"
+          src=""
+          alt="Capa da música atual"
+          class="h-12 w-12 rounded-xl object-cover sm:h-14 sm:w-14"
+        />
+
+        <div class="min-w-0 flex-1">
+          <p id="floating-player-title" class="truncate text-sm font-medium text-white"></p>
+          <p id="floating-player-artist" class="truncate text-xs text-white/60"></p>
+        </div>
+
+        <button
+          id="floating-player-toggle"
+          type="button"
+          class="flex h-11 w-11 items-center justify-center rounded-full bg-white text-sm font-semibold text-black transition hover:bg-white/90 active:scale-95"
+        >
+          ❚❚
+        </button>
+      </div>
+    </div>
+
+    <audio id="featured-song-audio"></audio>
+  </body>
+</html>
