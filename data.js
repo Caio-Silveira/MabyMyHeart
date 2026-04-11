@@ -58,6 +58,33 @@ const featuredSong = {
 };
 
 const letter = {
+  greeting: 'Oi, meu amor.',
+  paragraphs: [
+    'Antes de qualquer coisa, eu quero que você saiba que te conhecer foi uma das melhores coisas que me aconteceram nos últimos anos.',
+    'As pessoas falam que coisas incríveis acontecem quando a gente diz: “Deus, faça a sua vontade, me ajude. Tire as coisas ruins e me mostre caminhos bons.”',
+    'E eu acredito nisso de verdade… porque foi assim que eu enxerguei você na minha vida.',
+    'Eu tenho buscado crescer, ser melhor, ser um homem que honra aquilo que sente e aquilo que constrói.',
+    'E nesses últimos dias… eu senti algo que eu não queria sentir de novo.',
+    'Não é sobre jogar peso em você… mas eu tenho que ser honesto com o que eu senti.',
+    'Quando algo quebra a confiança, isso pesa.',
+    'Não é só o que aconteceu… é como aconteceu.',
+    'Porque pra mim, é difícil entender como alguém consegue mentir olhando nos olhos de quem disse que ama.',
+    'Isso foi o que mais me pegou.',
+    'Eu sempre fui verdadeiro com você, sempre te olhei com respeito e sentimento.',
+    'Eu não espero perfeição. Mas eu espero verdade.',
+    'Porque pra mim, confiança não é detalhe… é base.',
+    'E no meio disso tudo, lembro de como era natural você me procurar, falar comigo, querer minha presença.',
+    '“You used to call me on my cell phone, late night when you need my love.” — Drake',
+    'Eu não tô escrevendo pra atacar, nem pra me afastar.',
+    'Eu ainda acredito no que a gente pode construir.',
+    'Eu não quero algo cheio de dúvida… eu quero algo verdadeiro.',
+    'Eu sei o que eu mereço dentro de uma relação.',
+    'E é isso que eu espero da gente.'
+  ],
+  signature: 'Caio',
+};
+
+const letter1 = {
   greeting: 'Oi, Meu Amor.',
   paragraphs: [
     'Escrevo essa carta para eternizar o que sinto por você.',
