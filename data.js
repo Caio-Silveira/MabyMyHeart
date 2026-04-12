@@ -57,7 +57,7 @@ const featuredSong = {
   description: 'Essa música me lembra você de um jeito que eu nem sei explicar direito.',
 };
 
-const letter = {
+const letter2 = {
   greeting: 'Oi, meu amor.',
   paragraphs: [
     'Antes de qualquer coisa, eu quero que você saiba que te conhecer foi uma das melhores coisas que me aconteceram nos últimos anos.',
@@ -84,7 +84,7 @@ const letter = {
   signature: 'Caio',
 };
 
-const letter1 = {
+const letter = {
   greeting: 'Oi, Meu Amor.',
   paragraphs: [
     'Escrevo essa carta para eternizar o que sinto por você.',
