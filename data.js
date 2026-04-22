@@ -84,7 +84,7 @@ const letter2 = {
   signature: 'Caio',
 };
 
-const letter = {
+const letter1 = {
   greeting: 'Oi, Meu Amor.',
   paragraphs: [
     'Escrevo essa carta para eternizar o que sinto por você.',
@@ -108,6 +108,30 @@ const letter = {
     'e pra eternizar o que eu sinto por você...',
     'para lembrar sempre do que a gente é',
     'e do que a gente ainda vai ser.',
+  ],
+  signature: 'Caio',
+};
+
+const letter = {
+  greeting: 'Oi Maby,',
+  paragraphs: [
+    'Queria te escrever com calma depois de tudo que a gente conversou.',
+    'Eu errei, e assumo a responsabilidade por isso.',
+    'Eu te decepcionei e sei que sua reação é justa.',
+    'Estou comprometido a mudar, sendo mais íntegro e transparente com você.',
+    'Eu valorizo muito o que temos.',
+    'E, com o tempo, vou reconquistar sua confiança.',
+    'Eu também reconheço o quanto isso foi cansativo pra você.',
+    'Mesmo assim você continuou, veio falar comigo e ainda tá aqui.',
+    'Eu sei que isso não é fácil.',
+    'Sinto muito por ter causado essa dor em você.',
+    'Isso só me mostra o quanto você se importa.',
+    'E isso é importante pra mim de verdade.',
+    'Eu quero que o nosso amor volte a ser leve como era no começo.',
+    'E vou mostrar isso com atitudes no dia a dia.',
+    'Sendo mais coerente, mais transparente e respeitando o que a gente combina.',
+    'Eu sei que isso não vai acontecer de uma vez.',
+    'Mas eu tô disposto a construir isso com você.'
   ],
   signature: 'Caio',
 };
