@@ -112,7 +112,7 @@ const letter1 = {
   signature: 'Caio',
 };
 
-const letter = {
+const letter3 = {
   greeting: 'Oi Maby,',
   paragraphs: [
     'Queria te escrever com calma depois de tudo que a gente conversou.',
@@ -132,6 +132,28 @@ const letter = {
     'Sendo mais coerente, mais transparente e respeitando o que a gente combina.',
     'Eu sei que isso não vai acontecer de uma vez.',
     'Mas eu tô disposto a construir isso com você.'
+  ],
+  signature: 'Caio',
+};
+
+const letter = {
+  greeting: 'Oi Maby,',
+  paragraphs: [
+    'Estou tendo uma sensação estranha que vem e some de repente. É como o inverso daquele frio na barriga quando você está prestes a cair do pico de uma montanha-russa.',
+    'SIM! Cair mesmo... porque para descer, você precisa necessariamente conhecer o caminho. Caso contrário, é um pulo no escuro. Ninguém sabe o que tem lá, mas crescemos assistindo tantos "filmes de terror", que antes mesmo de imaginar, sentimos pavor. PAVOR DO IMAGINÁRIO!',
+    'E aí vem as pessoas dizendo que o passado era melhor... mas talvez não porque realmente era, mas porque o passado já aconteceu. Já foi visto. Já foi sobrevivido. No fundo, as pessoas não querem voltar ao passado porque ele era melhor, mas porque já sabiam o que esperar.',
+    'Todas as pessoas querem viver o "sistema", todos querem dias pretos e brancos. Mas sair do preto para o branco não seria um salto no escuro? Eis a hipocrisia. Vivem pedindo mudança, mas só se puderem prever cada consequência. Querem viver o extraordinário sem salto, mas não existe extraordinário sem desconhecido.',
+    'Aí vem a famosa palavra: "experiência". Que palavra curiosa, para não dizer que é tolice. Porque quando alguém está com medo de pular, sempre aparece uma pessoa "mais experiente" dizendo o que faria. Mas será que experiência é sempre sabedoria? Ou, às vezes, também é arrependimento disfarçado?',
+    'Quem aconselha nem sempre conta apenas como viveu; impõe, sem perceber, como gostaria de ter vivido. Talvez esse seja um dos maiores riscos: viver decisões importantes não pela própria coragem, mas pelo conforto temporário de terceirizar o medo.',
+    'Porque, no fim, ainda é um salto no escuro. Viver de verdade não é escutar quem teria pulado diferente, mas descobrir por conta própria se o nosso voo tem asas. A vida só é verdadeira quando é vivida pela gente.',
+    'Músicas que escutei bastante essa semana:',
+    '"Aprendi a não confiar no amor, congelei tudo ao meu redor. Eu tranquei as portas pro calor e por isso o incêndio começou. Você me lembra que o amor é assim mesmo, e pode ser fora da curva... e eu, que sempre disse que nunca, fui hipócrita até na armadura."',
+    '"Por tantas noites que eu passei juntando as mãos, pedindo ao céu pra me mandar uma direção. Deus é muito bom, ouviu minha oração: mandou seu coração."',
+    '"Minha casa toda em cinzas, minha cama toda em chamas, minha pele derretida... e você toda linda. Explosão de sentimentos que eu não pude acreditar. Como é bom poder te amar!"',
+    '"Tem dias que eu acordo pensando em você e, em fração de segundo, vejo o mundo desabar. É aí que cai a ficha que eu não vou te ver... será que esse vazio um dia vai me abandonar? Eu trocaria tudo para te ter aqui."',
+    '"Escolhi ser diferente, amor, só pra te amar. Desapega do medo e deixa acontecer: eu, você, dois filhos e um cachorro. Um edredom, um filme bom no frio de agosto... e aí, cê topa?"',
+    '"Um dia você vai sentar numa cadeira de balanço, vai lembrar do tempo que tinha vinte anos e se perguntar por onde eu devo estar. E eu vou estar te esperando, nem que seja além dessa vida. Se o mal chegar, eu entro na frente para te proteger."',
+    '"Sabe aquela igreja? Tô aqui na frente, imaginando chuva de arroz na gente. É impressão minha ou o sol brilhou mais forte quando olhou pra mim? Metade do meu peito mora em você."'
   ],
   signature: 'Caio',
 };
